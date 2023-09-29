@@ -14,13 +14,13 @@
 <br />
 <div align="center">
   <a href="https://github.com/irfanbakhtiar/larawind-portfolio">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="screenshot/About.png" alt="Logo">
   </a>
 
   <h3 align="center">Larawind Portfolio</h3>
 
   <p align="center">
-    Start writing your portfolio easily and fun!
+    Start writing your portfolio easily and fun.
     <br />
     <a href="https://github.com/irfanbakhtiar/larawind-portfolio/issues">Report Bug</a>
 <!--     ·
@@ -31,8 +31,6 @@
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 This project started when I wanted to create a website that was used to represent the results of the project I created. Many out there have made it like this, but I am more challenged to develop this portfolio website using existing references.
 
@@ -48,8 +46,8 @@ Of course, this project wouldn't be perfect without references from great people
 
 This project uses the following framework:
 
--   [![Laravel][laravel.com]][laravel-url]
--   [![Tailwind][tailwindcss.com]][tailwindcss-url]
+-   <a href="https://www.laravel.com">Laravel</a>
+-   <a href="https://www.tailwindcss.com">Tailwind CSS</a>
 
 This project uses the following tools & plugin:
 
@@ -65,12 +63,7 @@ This is a step about setting up your project locally. To get a local copy up and
 
 ### Prerequisites
 
-Make sure you have installed <a href="https://nodejs.org">Node JS</a> to make use of the Node package manager (npm) in the terminal. This is a list of things you need to use the software and how to install it.
-
--   npm
-    ```sh
-    npm install npm@latest -g
-    ```
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer.
 
 ### Installation
 
@@ -125,6 +118,24 @@ Use this space to show useful examples of how a project can be used. Additional 
 <!-- ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information. -->
+
+## Screenshot
+#### Home Page
+<details>
+    <summary>Show</summary>
+    <img src="screenshot/About.png" alt="About">
+    <img src="screenshot/Education.png" alt="Education">
+    <img src="screenshot/Skills.png" alt="Skilss">
+    <img src="screenshot/Projects.png" alt="Projects">
+    <img src="screenshot/Services.png" alt="Services">
+</details>
+
+#### Admin Panel
+<details>
+    <summary>Show</summary>
+    <img src="screenshot/Login.png" alt="Login">
+    <img src="screenshot/Dashboard.png" alt="Dashboard">
+</details>
 
 <!-- CONTACT -->
 
