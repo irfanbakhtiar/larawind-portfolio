@@ -1,0 +1,65 @@
+@tailwind base;
+/* Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: var(--secondary) var(--primary);
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 15px;
+}
+
+*::-webkit-scrollbar-track {
+    background: var(--primary);
+    border-radius: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: var(--secondary);
+    border-radius: 14px;
+    border: 3px solid var(--primary);
+}
+
+:root {
+    --primary: #f9fafb;
+    --secondary: #9ca3af;
+}
+
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: "Poppins", sans-serif;
+    /* font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+        Nunito, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
+        sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+        "Noto Color Emoji"; */
+}
+
+.navbar-fixed {
+    @apply fixed z-[9999] bg-white;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1),
+        0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.link-btn-active {
+    @apply bg-primary;
+    @apply text-gray-50;
+}
+.link-btn-non {
+    @apply text-gray-600;
+}
+
+.linex-active {
+    @apply divide-x divide-sky-600;
+}
+
+.chart {
+    max-height: 250px;
+}
+
+.nav-active {
+    @apply text-primary;
+}
