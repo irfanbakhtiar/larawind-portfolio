@@ -135,6 +135,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information. -->
     <summary>Show</summary>
     <img src="screenshot/Login.png" alt="Login">
     <img src="screenshot/Dashboard.png" alt="Dashboard">
+    <img src="screenshot/ProjectPanel.png" alt="Project">
+    <img src="screenshot/CategoryPanel.png" alt="Category">
+    <img src="screenshot/AccountPanel.png" alt="Account">
 </details>
 
 <!-- CONTACT -->
