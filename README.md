@@ -1,7 +1,4 @@
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
-
-<a name="readme-top"></a>
-
 <!--
 *** Thanks for checking out the Best-README-Template. If you have a suggestion
 *** that would make this better, please fork the repo and create a pull request
@@ -54,6 +51,47 @@ This project uses the following tools & plugin:
 -   <a href="https://github.com/basecamp/trix">Trix Editor</a>
 -   <a href="https://github.com/cviebrock/eloquent-sluggable">Eloquent Sluggable</a>
 -   <a href="https://github.com/tailwindlabs/tailwindcss-line-clamp">Line Clamp</a>
+
+<!-- FEATURES -->
+
+### Features
+The project has features such as:
+
+Homepage
+- About Section
+- Education Section
+- Skills Section
+- Projects Section
+- Services Section
+
+Admin Panel
+- Dashboard
+- Manage Project
+- Manage Category
+- Manage Account
+
+<!-- SCREENSHOT -->
+
+### Screenshot
+##### Home Page
+<details>
+    <summary>Show</summary>
+    <img src="screenshot/About.png" alt="About">
+    <img src="screenshot/Education.png" alt="Education">
+    <img src="screenshot/Skills.png" alt="Skilss">
+    <img src="screenshot/Projects.png" alt="Projects">
+    <img src="screenshot/Services.png" alt="Services">
+</details>
+
+##### Admin Panel
+<details>
+    <summary>Show</summary>
+    <img src="screenshot/Login.png" alt="Login">
+    <img src="screenshot/Dashboard.png" alt="Dashboard">
+    <img src="screenshot/ProjectPanel.png" alt="Project">
+    <img src="screenshot/CategoryPanel.png" alt="Category">
+    <img src="screenshot/AccountPanel.png" alt="Account">
+</details>
 
 <!-- GETTING STARTED -->
 
@@ -108,46 +146,9 @@ _Below are the procedures for installing and setting up your app._
     ```sh
     php artisan storage:link
     ```
-
-<!-- USAGE -->
-<!-- ## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources. -->
-
-<!-- LICENSE -->
-<!-- ## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information. -->
-
-## Screenshot
-#### Home Page
-<details>
-    <summary>Show</summary>
-    <img src="screenshot/About.png" alt="About">
-    <img src="screenshot/Education.png" alt="Education">
-    <img src="screenshot/Skills.png" alt="Skilss">
-    <img src="screenshot/Projects.png" alt="Projects">
-    <img src="screenshot/Services.png" alt="Services">
-</details>
-
-#### Admin Panel
-<details>
-    <summary>Show</summary>
-    <img src="screenshot/Login.png" alt="Login">
-    <img src="screenshot/Dashboard.png" alt="Dashboard">
-</details>
-
 <!-- CONTACT -->
 
 ## Contact
 
 Muhammad Irfan Bakhtiar - m.irfanbakhtiar99@gmail.com<br>
 Project Link: [https://github.com/irfanbakhtiar/larawind-portfolio](https://github.com/irfanbakhtiar/larawind-portfolio)
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-
-[product-screenshot]: images/screenshot.png
-[tailwindcss.com]: https://img.shields.io/badge/Tailwind%20CSS-06b6d4?style=for-the-badge&logo=tailwindcss&logoColor=white
-[tailwindcss-url]: https://tailwindcss.com
-[laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
